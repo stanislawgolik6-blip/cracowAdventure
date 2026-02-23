@@ -15,7 +15,10 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Text.Acts.SetVisible,
 		C3.Plugins.Sprite.Cnds.OnCollision,
 		C3.Plugins.System.Acts.RestartLayout,
-		C3.Plugins.Sprite.Acts.AddChild
+		C3.Plugins.Sprite.Acts.AddChild,
+		C3.Plugins.System.Cnds.Every,
+		C3.Plugins.Sprite.Acts.SetY,
+		C3.Plugins.Sprite.Exps.Y
 	];
 };
 self.C3_JsPropNameTable = [
@@ -72,7 +75,13 @@ self.C3_JsPropNameTable = [
 	{sciany2: 0},
 	{ławkiKośćielne: 0},
 	{ławkiKośćielne2: 0},
-	{artefakt2: 0}
+	{artefakt2: 0},
+	{zabytek3: 0},
+	{gracz4: 0},
+	{sciany: 0},
+	{LataLawa: 0},
+	{artefakt3: 0},
+	{TiledBackground5: 0}
 ];
 
 self.InstanceType = {
@@ -125,5 +134,11 @@ self.InstanceType = {
 	sciany2: class extends self.ISpriteInstance {},
 	ławkiKośćielne: class extends self.ISpriteInstance {},
 	ławkiKośćielne2: class extends self.ISpriteInstance {},
-	artefakt2: class extends self.ISpriteInstance {}
+	artefakt2: class extends self.ISpriteInstance {},
+	zabytek3: class extends self.ISpriteInstance {},
+	gracz4: class extends self.ISpriteInstance {},
+	sciany: class extends self.ISpriteInstance {},
+	LataLawa: class extends self.ISpriteInstance {},
+	artefakt3: class extends self.ISpriteInstance {},
+	TiledBackground5: class extends self.ITiledBackgroundInstance {}
 }
