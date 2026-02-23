@@ -1,1 +1,42 @@
-{"version":1771670888542,"fileList":["scripts/main.js","scripts/c3runtime.js","scripts/objRefTable.js","scripts/c3main.js","scripts/dispatchworker.js","scripts/jobworker.js","workermain.js","data.json","scripts/modernjscheck.js","scripts/supportcheck.js","scripts/offlineclient.js","icons/icon-16.png","icons/icon-32.png","icons/icon-64.png","icons/icon-256.png","icons/icon-512.png","icons/icon-128.png","icons/loading-logo.png","style.css","images/shared-0-sheet0.webp","images/shared-0-sheet1.webp","images/tiledbackground-sheet0.webp","images/tiledbackground2-sheet0.webp","scripts/register-sw.js"]}
+{
+	"name": "cracov adventure",
+	"short_name": "cracov adventure",
+	"description": "",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "landscape",
+	"background_color": "#ffffff",
+	"icons": [
+		{
+			"src": "icons/icon-16.png",
+			"sizes": "16x16",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-64.png",
+			"sizes": "64x64",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
+	"screenshots": []
+}
